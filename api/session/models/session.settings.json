@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sessions",
+  "info": {
+    "name": "session",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "patient": {
+      "model": "patient",
+      "via": "sessions"
+    },
+    "student": {
+      "model": "student",
+      "via": "sessions"
+    },
+    "appointments": {
+      "via": "session",
+      "collection": "appointment"
+    },
+    "payment": {
+      "model": "payment",
+      "via": "session"
+    }
+  }
+}

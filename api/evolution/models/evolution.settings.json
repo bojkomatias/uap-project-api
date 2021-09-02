@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "evolutions",
+  "info": {
+    "name": "evolution"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "evolution": {
+      "type": "richtext"
+    },
+    "case_history": {
+      "via": "evolutions",
+      "model": "case-history"
+    }
+  }
+}

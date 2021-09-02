@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "patients",
+  "info": {
+    "name": "patient"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "sessions": {
+      "via": "patient",
+      "collection": "session"
+    }
+  }
+}
