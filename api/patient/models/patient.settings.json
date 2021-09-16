@@ -27,6 +27,9 @@
     },
     "dob": {
       "type": "date"
+    },
+    "gender": {
+      "type": "string"
     }
   }
 }
