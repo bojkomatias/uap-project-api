@@ -24,6 +24,9 @@
     },
     "document": {
       "type": "string"
+    },
+    "dob": {
+      "type": "date"
     }
   }
 }
