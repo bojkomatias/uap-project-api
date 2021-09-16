@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_histories",
+  "info": {
+    "name": "case_history",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "start_date": {
+      "type": "string"
+    },
+    "evolutions": {
+      "collection": "evolution",
+      "via": "case_history"
+    }
+  }
+}
