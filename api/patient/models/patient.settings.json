@@ -21,6 +21,9 @@
     "orders": {
       "collection": "order",
       "via": "patient"
+    },
+    "document": {
+      "type": "string"
     }
   }
 }
