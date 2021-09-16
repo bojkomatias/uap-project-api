@@ -15,9 +15,9 @@
     "date": {
       "type": "datetime"
     },
-    "session": {
+    "order": {
       "via": "appointments",
-      "model": "session"
+      "model": "order"
     }
   }
 }

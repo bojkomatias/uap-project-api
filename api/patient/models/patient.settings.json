@@ -18,15 +18,9 @@
     "last_name": {
       "type": "string"
     },
-    "sessions": {
-      "via": "patient",
-      "collection": "session"
-    },
-    "document": {
-      "type": "string"
-    },
-    "date_of_birth": {
-      "type": "datetime"
+    "orders": {
+      "collection": "order",
+      "via": "patient"
     }
   }
 }
