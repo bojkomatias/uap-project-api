@@ -22,9 +22,9 @@
       "model": "professor",
       "via": "students"
     },
-    "sessions": {
-      "via": "student",
-      "collection": "session"
+    "orders": {
+      "collection": "order",
+      "via": "student"
     }
   }
 }

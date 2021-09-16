@@ -14,9 +14,9 @@
     "amount": {
       "type": "float"
     },
-    "session": {
+    "order": {
       "via": "payment",
-      "model": "session"
+      "model": "order"
     }
   }
 }
