@@ -19,12 +19,24 @@
       "type": "string"
     },
     "professor": {
-      "model": "professor",
-      "via": "students"
+      "via": "students",
+      "model": "professor"
     },
     "orders": {
       "collection": "order",
       "via": "student"
+    },
+    "document": {
+      "type": "string"
+    },
+    "dob": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "student_number": {
+      "type": "string"
     }
   }
 }
