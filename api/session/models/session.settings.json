@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "sessions",
   "info": {
-    "name": "session",
+    "name": "order",
     "description": ""
   },
   "options": {
