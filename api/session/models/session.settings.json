@@ -13,8 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "patient": {
-      "model": "patient",
-      "via": "sessions"
+      "via": "sessions",
+      "model": "patient"
     },
     "student": {
       "model": "student",
