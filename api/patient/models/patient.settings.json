@@ -33,10 +33,7 @@
     "phone": {
       "type": "string"
     },
-    "adress": {
-      "type": "string"
-    },
-    "neighborhood": {
+    "address": {
       "type": "string"
     },
     "city": {
@@ -48,39 +45,14 @@
     "postal_code": {
       "type": "string"
     },
-    "travel_time": {
-      "type": "string"
-    },
-    "school_level": {
-      "type": "string"
-    },
     "profession": {
-      "type": "string"
-    },
-    "retired": {
-      "type": "boolean"
-    },
-    "pensioner": {
-      "type": "boolean"
-    },
-    "unemployed": {
-      "type": "boolean"
-    },
-    "active": {
-      "type": "boolean"
-    },
-    "religion": {
       "type": "string"
     },
     "marital_status": {
       "type": "string"
     },
-    "children": {
-      "type": "integer"
-    },
-    "appointments": {
-      "collection": "appointment",
-      "via": "patient"
+    "healthcare": {
+      "type": "string"
     }
   }
 }

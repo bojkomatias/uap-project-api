@@ -18,9 +18,6 @@
     "evolutions": {
       "via": "case_history",
       "collection": "evolution"
-    },
-    "complementary_exams": {
-      "type": "json"
     }
   }
 }
