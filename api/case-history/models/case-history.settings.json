@@ -16,8 +16,8 @@
       "type": "string"
     },
     "evolutions": {
-      "collection": "evolution",
-      "via": "case_history"
+      "via": "case_history",
+      "collection": "evolution"
     },
     "complementary_exams": {
       "type": "json"

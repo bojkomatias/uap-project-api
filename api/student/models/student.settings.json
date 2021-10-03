@@ -22,14 +22,7 @@
       "via": "students",
       "model": "professor"
     },
-    "orders": {
-      "collection": "order",
-      "via": "student"
-    },
     "document": {
-      "type": "string"
-    },
-    "dob": {
       "type": "string"
     },
     "gender": {
@@ -37,6 +30,13 @@
     },
     "student_number": {
       "type": "string"
+    },
+    "dob": {
+      "type": "date"
+    },
+    "appointments": {
+      "collection": "appointment",
+      "via": "student"
     }
   }
 }

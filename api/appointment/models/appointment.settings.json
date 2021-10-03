@@ -15,9 +15,17 @@
     "date": {
       "type": "datetime"
     },
-    "order": {
+    "payment": {
+      "model": "payment",
+      "via": "appointment"
+    },
+    "patient": {
       "via": "appointments",
-      "model": "order"
+      "model": "patient"
+    },
+    "student": {
+      "via": "appointments",
+      "model": "student"
     }
   }
 }

@@ -14,9 +14,9 @@
     "amount": {
       "type": "float"
     },
-    "order": {
+    "appointment": {
       "via": "payment",
-      "model": "order"
+      "model": "appointment"
     }
   }
 }
