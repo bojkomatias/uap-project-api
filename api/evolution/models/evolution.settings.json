@@ -21,6 +21,12 @@
     },
     "odontogram": {
       "type": "json"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "motive": {
+      "type": "string"
     }
   }
 }
