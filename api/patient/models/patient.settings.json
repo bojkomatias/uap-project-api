@@ -53,6 +53,10 @@
     },
     "healthcare": {
       "type": "string"
+    },
+    "case_history": {
+      "via": "patient",
+      "model": "case-history"
     }
   }
 }

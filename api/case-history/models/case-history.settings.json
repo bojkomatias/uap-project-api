@@ -33,6 +33,10 @@
     },
     "diagnosis": {
       "type": "richtext"
+    },
+    "patient": {
+      "model": "patient",
+      "via": "case_history"
     }
   }
 }
