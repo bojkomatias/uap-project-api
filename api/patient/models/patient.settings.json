@@ -24,7 +24,7 @@
     "dob": {
       "type": "date"
     },
-    "gender": {
+    "workplace": {
       "type": "string"
     },
     "nationality": {
@@ -57,6 +57,13 @@
     "case_history": {
       "via": "patient",
       "model": "case-history"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "Masculino",
+        "Femenino"
+      ]
     }
   }
 }

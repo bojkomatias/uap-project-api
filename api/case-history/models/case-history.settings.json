@@ -35,8 +35,8 @@
       "type": "richtext"
     },
     "patient": {
-      "model": "patient",
-      "via": "case_history"
+      "via": "case_history",
+      "model": "patient"
     }
   }
 }
