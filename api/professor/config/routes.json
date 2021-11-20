@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/api/professors",
+      "path": "/professors",
       "handler": "professor.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/api/professors/count",
+      "path": "/professors/count",
       "handler": "professor.count",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/api/professors/:id",
+      "path": "/professors/:id",
       "handler": "professor.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/api/professors",
+      "path": "/professors",
       "handler": "professor.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/api/professors/:id",
+      "path": "/professors/:id",
       "handler": "professor.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/api/professors/:id",
+      "path": "/professors/:id",
       "handler": "professor.delete",
       "config": {
         "policies": []

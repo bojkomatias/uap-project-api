@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/api/evolutions",
+      "path": "/evolutions",
       "handler": "evolution.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/api/evolutions/count",
+      "path": "/evolutions/count",
       "handler": "evolution.count",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/api/evolutions/:id",
+      "path": "/evolutions/:id",
       "handler": "evolution.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/api/evolutions",
+      "path": "/evolutions",
       "handler": "evolution.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/api/evolutions/:id",
+      "path": "/evolutions/:id",
       "handler": "evolution.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/api/evolutions/:id",
+      "path": "/evolutions/:id",
       "handler": "evolution.delete",
       "config": {
         "policies": []
