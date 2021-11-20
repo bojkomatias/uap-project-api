@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/patients",
+      "path": "/api/patients",
       "handler": "patient.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/patients/count",
+      "path": "/api/patients/count",
       "handler": "patient.count",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/patients/:id",
+      "path": "/api/patients/:id",
       "handler": "patient.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/patients",
+      "path": "/api/patients",
       "handler": "patient.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/patients/:id",
+      "path": "/api/patients/:id",
       "handler": "patient.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/patients/:id",
+      "path": "/api/patients/:id",
       "handler": "patient.delete",
       "config": {
         "policies": []

@@ -3,7 +3,7 @@ module.exports = {
     cors: {
       enabled: true,
       // headers: '*',
-      origin: "*",
+      origin: ['http://practicas-fcs.uap.edu.ar'],
     },
   },
 };

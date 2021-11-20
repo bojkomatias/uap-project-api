@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/students",
+      "path": "/api/students",
       "handler": "student.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/students/count",
+      "path": "/api/students/count",
       "handler": "student.count",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/students/:id",
+      "path": "/api/students/:id",
       "handler": "student.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/students",
+      "path": "/api/students",
       "handler": "student.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/students/:id",
+      "path": "/api/students/:id",
       "handler": "student.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/students/:id",
+      "path": "/api/students/:id",
       "handler": "student.delete",
       "config": {
         "policies": []
