@@ -1,5 +1,5 @@
 module.exports = ({ env }) => ({
   host: env('HOST', '0.0.0.0'),
   port: env.int('PORT', 1337),
-  url: 'https://api.practicas-fcs.uap.edu.ar',
+  url: 'https://practicas-fcs.uap.edu.ar/api',
 });
