@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "evolution": {
-      "type": "richtext"
-    },
     "case_history": {
       "via": "evolutions",
       "model": "case-history"
@@ -27,6 +24,21 @@
     },
     "motive": {
       "type": "string"
+    },
+    "tartar": {
+      "type": "boolean"
+    },
+    "periodontal_disease": {
+      "type": "boolean"
+    },
+    "observation": {
+      "type": "richtext"
+    },
+    "treatment_plan": {
+      "type": "richtext"
+    },
+    "diagnosis": {
+      "type": "richtext"
     }
   }
 }

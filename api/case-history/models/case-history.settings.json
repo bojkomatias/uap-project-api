@@ -19,21 +19,6 @@
       "via": "case_history",
       "collection": "evolution"
     },
-    "tartar": {
-      "type": "boolean"
-    },
-    "periodontal_disease": {
-      "type": "boolean"
-    },
-    "treatment_plan": {
-      "type": "richtext"
-    },
-    "observations": {
-      "type": "richtext"
-    },
-    "diagnosis": {
-      "type": "richtext"
-    },
     "patient": {
       "via": "case_history",
       "model": "patient"
